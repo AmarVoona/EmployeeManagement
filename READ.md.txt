@@ -17,3 +17,5 @@ GET : http://localhost:8080/emp/1
 -- H2 DataBase Console link
 
 http://localhost:8080/console
+
+NOTE : To test the second API atleast need to store one employee details and while testing second API need to pass employee-id, this employee-id we can see in h2 db console
