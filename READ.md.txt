@@ -1,0 +1,19 @@
+1. API ENDPOINT FOR STORING EMPLOYEE DETAILS :
+POST : http://localhost:8080/saveEmp
+-Payload (Sample): 
+{
+    "firstName" : "Jhon",
+    "lastName" : "Paul",
+    "firstName" : "Abhi",
+    "email" : "paul@xyz.com",
+    "phoneNumber" : "9876543210",
+    "dateOfJoining" : "2024-05-16",
+    "salayr" : 50000    
+}
+
+2. API ENDPOINT FOR GET THE TAX-DEDUCTION OF EMPLOYEE:
+GET : http://localhost:8080/emp/1
+
+-- H2 DataBase Console link
+
+http://localhost:8080/console
